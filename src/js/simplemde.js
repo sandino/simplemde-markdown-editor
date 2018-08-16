@@ -1071,58 +1071,58 @@ var toolbarBuiltInButtons = {
 		name: "bold",
 		action: toggleBold,
 		className: "fa fa-bold",
-		title: "Bold",
+		title: "Полужирный",
 		default: true
 	},
 	"italic": {
 		name: "italic",
 		action: toggleItalic,
 		className: "fa fa-italic",
-		title: "Italic",
+		title: "Курсив",
 		default: true
 	},
 	"strikethrough": {
 		name: "strikethrough",
 		action: toggleStrikethrough,
 		className: "fa fa-strikethrough",
-		title: "Strikethrough"
+		title: "Зачеркнуть"
 	},
 	"heading": {
 		name: "heading",
 		action: toggleHeadingSmaller,
 		className: "fa fa-header",
-		title: "Heading",
+		title: "Заголовок",
 		default: true
 	},
 	"heading-smaller": {
 		name: "heading-smaller",
 		action: toggleHeadingSmaller,
 		className: "fa fa-header fa-header-x fa-header-smaller",
-		title: "Smaller Heading"
+		title: "Уменьшить заголовок"
 	},
 	"heading-bigger": {
 		name: "heading-bigger",
 		action: toggleHeadingBigger,
 		className: "fa fa-header fa-header-x fa-header-bigger",
-		title: "Bigger Heading"
+		title: "Увеличить заголовок"
 	},
 	"heading-1": {
 		name: "heading-1",
 		action: toggleHeading1,
 		className: "fa fa-header fa-header-x fa-header-1",
-		title: "Big Heading"
+		title: "Большой заголовок"
 	},
 	"heading-2": {
 		name: "heading-2",
 		action: toggleHeading2,
 		className: "fa fa-header fa-header-x fa-header-2",
-		title: "Medium Heading"
+		title: "Средний заголовок"
 	},
 	"heading-3": {
 		name: "heading-3",
 		action: toggleHeading3,
 		className: "fa fa-header fa-header-x fa-header-3",
-		title: "Small Heading"
+		title: "Малый заголовок"
 	},
 	"separator-1": {
 		name: "separator-1"
@@ -1131,34 +1131,34 @@ var toolbarBuiltInButtons = {
 		name: "code",
 		action: toggleCodeBlock,
 		className: "fa fa-code",
-		title: "Code"
+		title: "Код"
 	},
 	"quote": {
 		name: "quote",
 		action: toggleBlockquote,
 		className: "fa fa-quote-left",
-		title: "Quote",
+		title: "Цитата",
 		default: true
 	},
 	"unordered-list": {
 		name: "unordered-list",
 		action: toggleUnorderedList,
 		className: "fa fa-list-ul",
-		title: "Generic List",
+		title: "Обычный список",
 		default: true
 	},
 	"ordered-list": {
 		name: "ordered-list",
 		action: toggleOrderedList,
 		className: "fa fa-list-ol",
-		title: "Numbered List",
+		title: "Нумерованный список",
 		default: true
 	},
 	"clean-block": {
 		name: "clean-block",
 		action: cleanBlock,
 		className: "fa fa-eraser fa-clean-block",
-		title: "Clean block"
+		title: "Очистить блок"
 	},
 	"separator-2": {
 		name: "separator-2"
@@ -1167,27 +1167,27 @@ var toolbarBuiltInButtons = {
 		name: "link",
 		action: drawLink,
 		className: "fa fa-link",
-		title: "Create Link",
+		title: "Создать ссылку",
 		default: true
 	},
 	"image": {
 		name: "image",
 		action: drawImage,
 		className: "fa fa-picture-o",
-		title: "Insert Image",
+		title: "Вставить изображение",
 		default: true
 	},
 	"table": {
 		name: "table",
 		action: drawTable,
 		className: "fa fa-table",
-		title: "Insert Table"
+		title: "Вставить таблицу"
 	},
 	"horizontal-rule": {
 		name: "horizontal-rule",
 		action: drawHorizontalRule,
 		className: "fa fa-minus",
-		title: "Insert Horizontal Line"
+		title: "Вставить горизонтальную линию"
 	},
 	"separator-3": {
 		name: "separator-3"
@@ -1196,21 +1196,21 @@ var toolbarBuiltInButtons = {
 		name: "preview",
 		action: togglePreview,
 		className: "fa fa-eye no-disable",
-		title: "Toggle Preview",
+		title: "Предварительный просмотр",
 		default: true
 	},
 	"side-by-side": {
 		name: "side-by-side",
 		action: toggleSideBySide,
 		className: "fa fa-columns no-disable no-mobile",
-		title: "Toggle Side by Side",
+		title: "Предпросмотр сбоку",
 		default: true
 	},
 	"fullscreen": {
 		name: "fullscreen",
 		action: toggleFullScreen,
 		className: "fa fa-arrows-alt no-disable no-mobile",
-		title: "Toggle Fullscreen",
+		title: "Полный экран",
 		default: true
 	},
 	"separator-4": {
@@ -1220,7 +1220,7 @@ var toolbarBuiltInButtons = {
 		name: "guide",
 		action: "https://simplemde.com/markdown-guide",
 		className: "fa fa-question-circle",
-		title: "Markdown Guide",
+		title: "Руководство по Markdown",
 		default: true
 	},
 	"separator-5": {
@@ -1230,13 +1230,13 @@ var toolbarBuiltInButtons = {
 		name: "undo",
 		action: undo,
 		className: "fa fa-undo no-disable",
-		title: "Undo"
+		title: "Отменить"
 	},
 	"redo": {
 		name: "redo",
 		action: redo,
 		className: "fa fa-repeat no-disable",
-		title: "Redo"
+		title: "Повторить"
 	}
 };
 
@@ -1248,8 +1248,8 @@ var insertTexts = {
 };
 
 var promptTexts = {
-	link: "URL for the link:",
-	image: "URL of the image:"
+	link: "URL для ссылки:",
+	image: "URL изображения:"
 };
 
 var blockStyles = {
